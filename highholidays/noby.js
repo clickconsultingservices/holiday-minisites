@@ -9,11 +9,13 @@ jQuery(window).load(function() {
 
 		      // Check if click was triggered on or within #menu_content
 		      if( jQuery(e.target).closest(menu).length > 0) {
-		      }
+		      	
+		      } else {
 
-		      // Otherwise
-		      // trigger your click function
-		      menuItem.removeClass("clicked"); 
+			      // Otherwise
+			      // trigger your click function
+			      menuItem.removeClass("clicked"); 
+			  }
 		  });
 
 
