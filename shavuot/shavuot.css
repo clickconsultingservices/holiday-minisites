@@ -1,0 +1,987 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+.shavuot-minisite .chabad_header h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px !important;
+  color: #968365 !important;
+  margin-top: -10px;
+  letter-spacing: 1.5px;
+}
+.shavuot-minisite .chabad_header h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px !important;
+  color: #968365 !important;
+  margin-top: -7px;
+  margin-left: 40px;
+  letter-spacing: 1.1px;
+  text-decoration: none;
+
+  text-transform: uppercase;
+  
+}
+
+.shavuot-minisite .chabad_header a {
+  text-decoration: none;
+  text-align: center;
+}
+
+
+.shavuot-minisite div#cco_body .content_title_container .overlay {
+    display: none;
+}
+.shavuot-minisite div.widget_header {
+    display: none;
+}
+.shavuot-minisite #border_bottom {
+    width: 975px;
+}
+.shavuot-minisite div#chabad_head {
+    float: left;
+    width: 358px !important;
+}.shavuot-minisite td.chabad_logo {
+    float: none;
+}
+
+.shavuot-minisite .chabad_logo a {
+    text-decoration: none;
+}
+
+.shavuot-minisite td.chabad_logo a,
+.shavuot-minisite td.chabad_logo h1,
+.shavuot-minisite td.chabad_logo div {
+    font-size: 40px;
+}
+
+.shavuot-minisite .chabad_logo h1 a img {
+    max-height: 100px;
+}
+
+.shavuot-minisite td.chabad_text_head {
+
+    box-sizing: border-box;
+    float: none;
+    vertical-align: middle;
+}
+
+.shavuot-minisite td.chabad_text_head img {
+    float: right;
+}.shavuot-minisite .chabad_navigator_bar {
+    background-size: 100%;
+    width: 975px;
+    height: 36px;
+}
+
+.shavuot-minisite .mobile .chabad_navigator_bar { 
+    width: 100%;
+    height: auto;
+}
+
+.shavuot-minisite div#chabad_main_content .chabad_navigator_bar .chabad_menu_content {
+    height: 100%;
+    float-left: 0px; !important;
+}
+
+.shavuot-minisite .chabad_navigator_bar .chabad_menu_content {
+}
+
+.shavuot-minisite .chabad_navigator_bar ul.navi{
+    height: 36px !important;
+    line-height: 36px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    position: relative !important;
+    z-index: 2 !important;
+}
+
+.shavuot-minisite .chabad_navigator_bar ul li {
+    float: none;
+    list-style: none;
+
+    z-index: 2;
+}
+
+.shavuot-minisite .chabad_navigator_bar .sub_menu {
+    display: none;
+    position: absolute;
+    top: 36px;
+
+    padding-top: 16px;
+    background: transparent;
+    visibility: visible;
+}
+
+.shavuot-minisite .chabad_navigator_bar ul li ul {
+    padding: 0;
+}
+
+.shavuot-minisite .chabad_navigator_bar ul li ul li {
+    border-bottom: 1px solid #C86281;
+    border-right: none;
+    float: none;
+    font-size: 10px !important;
+    height: auto;
+    line-height: 17px;
+    min-height: 23px;
+    padding: 3px 0;
+    background: #645A50;
+    text-align: center;
+}
+
+.shavuot-minisite .chabad_navigator_bar li:hover .sub_menu,
+.shavuot-minisite .chabad_navigator_bar li:target .sub_menu {
+    display: block;
+
+}
+
+.shavuot-minisite .chabad_navigator_bar ul li ul li:last-child {
+    border: none;
+}
+
+.shavuot-minisite .chabad_navigator_bar ul li ul li a {
+    display: inline-block;
+    float: none;
+    font-size: 11px !important;
+    height: auto;
+    max-width: 220px;
+    min-width: 80px;
+    padding: 2px 15px 0 15px;
+}
+
+.shavuot-minisite .chabad_navigator_bar ul li ul li a:hover,
+.shavuot-minisite .chabad_navigator_bar ul li ul li a:target {
+    background: none;
+}
+
+.shavuot-minisite .chabad_navigator_bar ul li:last-child {
+    border-right: none;
+}
+
+.shavuot-minisite .chabad_navigator_bar ul li a {
+    float: left;
+    font-family: arial;
+    font-weight: bold;
+    height: 100%;
+    padding: 0 16px;
+    text-decoration: none;
+}
+
+.shavuot-minisite .chabad_navigator_bar ul li a.arrow {
+    background: url('') no-repeat right center;
+    padding-right: 26px;
+}
+
+.shavuot-minisite .chabad_navigator_bar ul li.active a.parent,
+.shavuot-minisite .chabad_navigator_bar ul li a.selected,
+.shavuot-minisite .chabad_navigator_bar ul li a:hover {
+}
+
+.shavuot-minisite .chabad_navigator_bar ul li a.first {
+    padding-left: 0;
+}.shavuot-minisite div#chabad_main_content {
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    text-align: left;
+    width: 975px;
+}
+
+.shavuot-minisite div#chabad_left_colum,
+.shavuot-minisite div.chabad_left_colum,
+.shavuot-minisite div.chabad_left_column {
+    float: left;
+    margin: 15px;
+    margin-bottom: 0;
+    width: 685px;
+}
+
+.shavuot-minisite div.content_full_width #chabad_left_colum,
+.shavuot-minisite div.content_full_width .chabad_left_colum,
+.shavuot-minisite div.content_full_width .chabad_left_column {
+    float: none;
+    width: auto;
+}
+
+.shavuot-minisite div#chabad_left_colum .content_page_full,
+.shavuot-minisite div.chabad_left_colum .content_page_full {
+    margin: 0 15px;
+}
+
+.shavuot-minisite div#chabad_right_colum,
+.shavuot-minisite div.chabad_right_colum,
+.shavuot-minisite div.chabad_right_column {
+    float: left;
+
+    margin-top: 15px;
+    width: 245px;
+
+}.shavuot-minisite div#chabad_right_colum > div {
+    margin: 0 0 10px;
+    overflow: visible;
+    padding: 1px;
+}
+
+.shavuot-minisite #chabad_right_colum [class$=body] {
+    font-size: 12px;
+}
+
+.shavuot-minisite div#chabad_body_content {
+    float: right;
+    padding-bottom: 15px;
+    width: 600px;
+}
+
+.shavuot-minisite #navigation,
+.shavuot-minisite .chabad_menu_content,
+.shavuot-minisite div#chabad_head .chabad_content_head,
+.shavuot-minisite .chabad_banner_content,
+.shavuot-minisite .chabad_banner_content .chabad_image_content,
+.shavuot-minisite .chabad_image_banner,
+.shavuot-minisite div#chabad_left_colum .content_page,
+.shavuot-minisite div.chabad_left_colum .content_page,
+.shavuot-minisite .chabad_box_content_first,
+.shavuot-minisite .chabad_box_content_second,
+.shavuot-minisite .chabad_box_content_third,
+.shavuot-minisite .chabad_title_box.no_line,
+.shavuot-minisite .chabad_box_content_body,
+.shavuot-minisite .chabad_box_gradient,
+.shavuot-minisite .chabad_announce,
+.shavuot-minisite .chabad_text_box,
+.shavuot-minisite .chabad_text_box,
+.shavuot-minisite .content_box_custom {
+    float: none;
+    width: initial; 
+    padding-left: 0px;
+}
+
+.shavuot-minisite .chabad_banner_content .chabad_text_banner {
+    float: left;
+    padding: 0 0 20px;
+    width: 100%;
+}
+
+.shavuot-minisite #content_banner:after {
+    clear: both;
+    content: " ";
+    display: table;
+}
+
+.shavuot-minisite .chabad_banner_content .chabad_image_banner {
+    max-height: 342px;
+    overflow: hidden;
+}
+
+.shavuot-minisite div#content_banner {
+
+}
+
+.shavuot-minisite div#chabad_head .flowers,
+.shavuot-minisite div#co_calendar .co_calendar_body .co_calendar_gradient .co_calendar_text div.item .image {
+    float: left;
+}
+
+.shavuot-minisite .chabad_announce {
+    margin: 10px;
+    overflow: hidden;
+}
+.shavuot-minisite .chabad_box_content_first,
+.shavuot-minisite .chabad_box_content_second,
+.shavuot-minisite .chabad_box_content_third {
+    overflow-x: initial !important;
+}
+
+.shavuot-minisite .chabad_banner_content .chabad_text_banner a.chabad_more_button {
+    float: right;
+}
+
+.shavuot-minisite .chabad_image_banner img {
+    height: auto;
+    width: 100%;
+}
+
+.shavuot-minisite .chabad_text_box div {
+    font-size: 14px;
+}
+.shavuot-minisite .co_section_head,
+.shavuot-minisite .co_photo_gallery_head,
+.shavuot-minisite .chabad_updates_head,
+.shavuot-minisite .co_calendar_head {
+    color: #fff !important;
+
+    font-size: 20px;
+    margin: 0 -1px;
+}
+
+.shavuot-minisite .co_section_body,
+.shavuot-minisite .co_photo_gallery_body,
+.shavuot-minisite .chabad_updates_body,
+.shavuot-minisite .co_calendar_body,
+.shavuot-minisite .chabad_box_text_body {
+    margin: 10px;
+}
+
+.shavuot-minisite .co_section_text .item:last-child,
+.shavuot-minisite .co_photo_gallery_text .item:last-child,
+.shavuot-minisite .chabad_updates_text .item:last-child,
+.shavuot-minisite .co_calendar_text .item:last-child {
+    border-bottom: none !important;
+}
+.shavuot-minisite #co_photo_gallery .co_photo_gallery_head {
+
+}
+
+.shavuot-minisite .co_photo_gallery a {
+    display: block;
+    float: none !important;
+    margin: 0 5px 10px;
+    overflow: hidden;
+}
+
+.shavuot-minisite .co_photo_gallery a:last-child {
+    margin-bottom: 0;
+}
+
+.shavuot-minisite .co_photo_gallery a img {
+    border: none;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+}
+
+.shavuot-minisite div#co_photo_gallery .co_photo_gallery_footer a {
+    float: right;
+}
+
+.shavuot-minisite .chabad_logo p {
+    margin: 0;
+}
+.shavuot-minisite div#chabad_head .chabad_navigator_bar .mobile_menu ul.navi {
+        height:0px;
+        overflow: hidden;
+        transition: height 0.4s linear;
+    }
+    
+    .shavuot-minisite div#chabad_head .chabad_navigator_bar .mobile_menu ul.navi li,
+    .shavuot-minisite div#chabad_head .chabad_navigator_bar .mobile_menu ul.navi li a {
+        float: none;
+        display:block
+    }
+    .shavuot-minisite div#chabad_head .chabad_navigator_bar .mobile_menu ul.navi li a 
+    {
+        padding:5px 15px;
+        text-align: left;
+    }
+    .shavuot-minisite div#chabad_head .chabad_navigator_bar .mobile_menu li.active a.parent,
+    .shavuot-minisite div#chabad_head .chabad_navigator_bar .mobile_menu a.parent.selected,
+    .shavuot-minisite div#chabad_head .chabad_navigator_bar .mobile_menu a.parent:hover,
+    .shavuot-minisite div#chabad_head .chabad_navigator_bar .mobile_menu a.parent:target,
+    .shavuot-minisite div#chabad_head .chabad_navigator_bar .mobile_menu .sub_menu li.last {
+        border-bottom: 0 none;
+    }
+    .shavuot-minisite div#chabad_head .chabad_navigator_bar .mobile_menu {
+        border-bottom:4px solid #7e766f;
+    }
+    .shavuot-minisite .mobile_menu_nav_button {
+        position: relative;
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+        font-weight:bold;
+        font-size:9px!important;
+        color: inherit;     
+}
+.shavuot-minisite .mobile_menu_nav_button:after {    
+    content: "\25bc";        
+    left: 10px;
+    position: relative;    
+    color: inherit;
+}
+.shavuot-minisite .mobile_menu.open .mobile_menu_nav_button:after{
+    content: '\25b2';
+}
+
+.shavuot-minisite #chabad_main_content {
+  max-width: 1000px !important;
+width: 100% !important;
+}
+
+.shavuot-minisite #chabad_body_content {
+width: 60%;
+  margin-top: 50px;
+  padding: 0;
+}
+
+.shavuot-minisite #chabad_head {
+  margin-top: 30px;
+  padding-right: 20px;
+}
+.shavuot-minisite #navigation {
+  background: #B19E82;
+  margin-top: 0px;
+  margin-bottom: 20px;
+padding-top: 1px;
+color: #fff !important;
+text-transform: uppercase;
+}
+
+.shavuot-minisite .chabad_left_column {
+  background: #fff;
+
+  margin: 0 !important;
+  width: 100% !important;
+    min-height: 350px;
+}
+
+.shavuot-minisite .navi {
+  list-style: none!important;
+    min-height: 18px !important;
+padding: 0 !important;
+font-size: 15px !important;
+    width: 1000%;
+}
+
+.shavuot-minisite .navi li {
+ float: left !important;
+}
+
+.shavuot-minisite .chabad_left_column p {
+    padding: 20px;
+}
+
+.shavuot-minisite .chabad_left_column .home-image {
+    width: 100%;
+    padding: 0;
+margin-bottom: -2px;
+}
+
+.shavuot-minisite .chabad_left_column .home-image img {
+    width: 100%;
+}
+
+.shavuot-minisite .chabad_right_column {
+  width: 100% !important;
+}
+
+.shavuot-minisite .chabad_right_column p {
+  padding: 10px;
+}
+
+
+
+.shavuot-minisite .bottom-boxes {
+}
+
+.shavuot-minisite .bottom-boxes img {
+    width: 48%;
+  height: auto;
+}
+
+.shavuot-minisite .bottom-boxes .right {
+    float: right;
+}
+.shavuot-minisite #sub_menu {
+    display: none;
+    visibility: visible;
+  position: absolute;
+  top: 25px;
+
+  width: 200%;
+z-index: 300;
+}
+
+.shavuot-minisite #sub_menu ul {
+  color: #422352;
+  height: auto;
+    padding-top: 21px;
+padding-left: 0;
+  margin-left: 0;
+}
+
+.shavuot-minisite #sub_menu ul li {
+  float: none;
+clear: both;
+width: 250px;
+list-style: none;
+}
+
+.shavuot-minisite #sub_menu ul a {
+  color: #422352;
+padding: 10px 17px;
+display: block;
+background: #FDC19B;
+width: 100%;
+text-align: left;
+text-transform: none;
+
+}
+
+.shavuot-minisite .item.parent:hover #sub_menu,
+.shavuot-minisite .item.parent:target #sub_menu  {
+  display: block;
+}
+
+.shavuot-minisite .item.parent {
+  text-indent: -9999px;
+  color: #422352;
+    position: relative;
+  padding: 0px;
+  margin-top: -16px;
+    margin-bottom: 0;
+}
+
+.shavuot-minisite .item.parent a {
+  visibility: visible;
+  text-indent: 0;
+  color: #fff;
+  display: block;
+  padding: 15px;
+}
+.shavuot-minisite .item.parent:first-child {
+    padding-left: 5px;
+}
+
+.shavuot-minisite #navigation {
+  padding-top: 13px !important;
+  padding-left: 2px !important;
+  padding-bottom: 1px !important;
+  padding-left: 8px !important;
+  margin-bottom: 10px !important;
+}
+
+.shavuot-minisite #navigation .navi {
+  margin: 10px 0 0x 0;
+    padding: 0;
+  margin-bottom: -18px;
+  margin-top: 10px;
+
+}
+.shavuot-minisite #navigation li.parent,
+.shavuot-minisite #navigation a {
+  float: none !important;
+  padding: 5px;
+}
+.shavuot-minisite #navigation li.parent {
+  display: inline-block;
+    padding-bottom: 10px !important;
+  visibility: hidden;
+}
+
+.shavuot-minisite #navigation li.parent:last-of-type {
+    position: relative;
+    top: -40.7px;
+}
+
+.shavuot-minisite #content_page {
+    padding: 5px 15px;
+}
+.shavuot-minisite .form-header-group {
+  margin: 20px;
+  margin-bottom: 15px;
+  margin-top: 30px;
+  padding-bottom: 0px;
+}
+
+/*.shavuot-minisite #header_7 {
+  margin-bottom: -25px;
+}*/
+
+.shavuot-minisite #formContainer {
+    margin: 10px;   
+  margin-top: -10px;;
+}
+
+.shavuot-minisite #co_content_container .center.small {
+    padding-bottom: 20px;   
+}
+
+.shavuot-minisite .form-input-wide .form-html {
+  margin: 0;
+padding: 0;
+}
+.shavuot-minisite .form-input-wide .form-html p {
+  margin: 0;
+padding: 0;
+  margin-top: 40px;
+}
+.shavuot-minisite .form-input-wide .form-html p strong {
+  font-size: 18px;
+}
+
+.shavuot-minisite #formContainer .form-line {
+  padding: 12px;
+  padding-left: 30px;
+  margin: 0;
+}
+
+.shavuot-minisite .navi .heading {
+  display: none;
+}
+
+.shavuot-minisite .chabad_header:before {
+  content: " ";
+  display: block;
+  background: url(https://shavuot-48408.bitballoon.com/back-overlay.png) no-repeat;
+  position: absolute;
+  left: -100px;
+  top: 265px;
+  width: 550px;
+  height: 400px;
+  background-size: 100%;
+  z-index: -1;
+}
+
+
+.shavuot-minisite .chabad_header {
+  position: relative;
+}
+
+.shavuot-minisite div#chabad_head img {
+   max-width: 118%; 
+  margin-left: -10%;
+}
+
+
+.shavuot-minisite div#chabad_main_content {
+  overflow: visible;
+}
+.shavuot-minisite #chabad_body_content {
+  overflow: hidden;
+}
+
+.shavuot-minisite #chabad_head h1 {
+  position: absolute;
+  color: rgba(255,255,255,0.4);
+  text-align: center;
+  font-size: 18px;
+  width: 100%;
+  left: -20px;
+  top: 16px;
+  text-transform: uppercase;
+}
+
+.shavuot-minisite #navigation li.parent a.parent {
+  transition: all 500ms;
+}
+.shavuot-minisite #navigation li.parent.selected a.parent {
+  color: #E7D3B8;
+}
+.shavuot-minisite #navigation li.parent a.parent:hover,
+.shavuot-minisite #navigation li.parent a.parent:target {
+  background: rgba(255,255,255, 0.8);
+  color: #645A50;
+
+}
+
+.shavuot-minisite #navigation li.parent a.parent {
+  margin-right: -5px !important;
+  margin-left: 0px !important;
+  padding-right: 13px !important;
+  padding-left: 12px !important;
+
+  margin-top: -0.5px;
+
+
+  border-right: 1px solid rgba(255,255,255,0.2);
+}
+
+
+
+.shavuot-minisite #navigation li.parent {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.shavuot-minisite #navigation li.parent:last-child a.parent {
+  border-right: 0px solid #C86281;
+
+
+}
+.shavuot-minisite .sub_menu .item {
+  width: 150px;
+  padding: 3px 8px;
+}
+
+.shavuot-minisite .sub_menu .item:hover,
+.shavuot-minisite .sub_menu .item:target {
+  background: #D8C4A7;
+}
+
+.shavuot-minisite .co_body img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width: 1000px) { 
+
+
+  .shavuot-minisite #navigation li.parent a.parent {
+    border: none;
+  }
+
+  .shavuot-minisite .sub_menu   .item.last {
+  margin-bottom: 40px;
+}
+
+.shavuot-minisite div#chabad_head img {
+  margin-left: -5%;
+}
+
+  .shavuot-minisite #chabad_head {
+    float: none !important;
+  clear: both !important;
+  width: 400px !important;
+    max-width: 80%;
+  margin: 30px auto;
+  }
+
+.shavuot-minisite #chabad_head img {
+    width: 120%;
+  }
+
+.shavuot-minisite #chabad_body_page #chabad_main_content #navigation {
+  width: 100% !important;
+  padding: 1px 0px;
+}
+.shavuot-minisite #chabad_body_page #chabad_main_content #chabad_body_content {
+  width: 90% !important;
+    float: none !important;
+    clear: both !important;
+    margin: 0 auto;
+}
+
+.shavuot-minisite #chabad_body_content .chabad_left_column {
+  width: 100% !important;
+    min-height: 50px;
+}
+.shavuot-minisite #co_menu_container_wrapper{
+display:none!important;
+}
+ 
+.shavuot-minisite div#co_menu_container.co_menu_container.clearfix{
+display:none !important;
+}
+.shavuot-minisite div#co_menu_container_wrapper.co_menu_container_wrapper{
+    display:none !important;
+}
+.shavuot-minisite body {
+background-size: cover !important;
+}
+
+
+  .shavuot-minisite #navigation .chabad_menu_content li {
+    
+    width: 100%;
+    top: 0 !important;
+    padding-bottom: 0 !important;  
+}
+
+  .shavuot-minisite #navigation .chabad_menu_content li a {
+    margin-bottom: -20px;
+  }
+
+  .shavuot-minisite #navigation .chabad_menu_content .sub_menu {
+    background: none;
+    position: static;
+    margin-bottom: 50px;
+  }
+
+  .shavuot-minisite #navigation .chabad_menu_content .sub_menu li {
+    background: none;
+    border: none;
+    text-align: left;
+  }
+
+  .shavuot-minisite div#chabad_main_content .chabad_navigator_bar .chabad_menu_content .navi  {
+      background: #B19E82;
+    height: auto;
+    clear: both;
+    position: absolute;
+    width: 100%;
+    height: auto !important;
+
+  }
+
+  .shavuot-minisite #chabad_body_page #chabad_main_content #navigation {
+    background: none;
+    padding: 0 !important;
+    position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  width: auto !important;
+  }
+
+  .shavuot-minisite #navigation:before {
+  font-family: "FontAwesome";
+  content: "\f0c9";
+  font-size: 25px;
+    background: #585047;
+    position: fixed;
+  right: 0;
+  top: 0;
+  float: right;
+  text-align: right;
+  z-index: 1000;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+
+  -webkit-border-bottom-left-radius: 70px;
+-moz-border-radius-bottomleft: 70px;
+border-bottom-left-radius: 70px;
+
+    transition: all 400ms;
+  }
+
+
+  .shavuot-minisite div#chabad_main_content .chabad_navigator_bar .chabad_menu_content .navi  {
+    height: 93.9vh !important;
+    width: 190px;
+    max-width: 70vw;
+    position: fixed !important;
+  float: right;
+  padding: 30px !important;
+-webkit-box-shadow: 0px 0px 46px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 46px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 46px 0px rgba(0,0,0,0.75);
+
+  right: -260px;
+      transition: right 200ms;
+
+      /*z-index: 1001 !important;*/
+
+  }
+
+  .shavuot-minisite div#chabad_main_content .chabad_navigator_bar:hover:before,
+  .shavuot-minisite div#chabad_main_content .chabad_navigator_bar:target:before
+  .shavuot-minisite div#chabad_main_content .chabad_navigator_bar.clicked:before {
+    right: -45px;
+    top: -45px;
+  }
+
+.shavuot-minisite div#chabad_main_content .chabad_navigator_bar:hover .chabad_menu_content .navi,
+.shavuot-minisite div#chabad_main_content .chabad_navigator_bar:target .chabad_menu_content .navi,
+.shavuot-minisite div#chabad_main_content .chabad_navigator_bar.clicked .chabad_menu_content .navi  {
+      right: 0;
+
+  }
+	  .shavuot-minisite .chabad_header:before   {
+	  top: 200px;
+	  left: -400px;
+	}
+
+
+.shavuot-minisite {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.shavuot-minisite #navigation .item.arrow:before {
+  content: "\f0ab";
+  font-family: "FontAwesome";
+  text-indent: 0;
+  color: #fff;
+  font-size: 30px;
+  float: right;
+  display: block;
+  visibility: visible;
+  width: 50px;
+  height: 30px;
+  margin-top: 5px;
+  margin-right: 10px;
+  text-align: center;
+}
+
+
+.shavuot-minisite .navi .sub_menu_toggle {
+/*  content: "\f0ab";
+  font-family: "FontAwesome";
+  text-indent: 0;
+  color: #fff;
+  font-size: 30px;
+  float: right;
+  display: block;
+  visibility: visible;
+  width: 50px;
+  height: 30px;
+  margin-top: 5px;
+  margin-right: 10px;
+  text-align: center;*/
+  display: none !important;
+}
+
+
+.shavuot-minisite #navigation .chabad_menu_content .sub_menu li {
+  padding: 15px 4px;
+}
+
+.mobile .shavuot-minisite #navigation .chabad_menu_content li.parent a {
+    margin-bottom: 10px;
+}
+}
+@media (max-width:500px) {
+.shavuot-minisite #chabad_head h1 {
+  font-size: 2.5vw !important;
+}
+.shavuot-minisite #chabad_head h2 {
+  font-size: 2.4vw !important;
+  margin-top: -1vw;
+
+}
+}
+
+
+.shavuot-minisite .form-line-column {
+    WHITE-SPACE: normal;
+}
+
+
+
+.shavuot-minisite .chabad_left_column .co_body {
+  padding: 18px;
+}
+.shavuot-minisite .chabad_left_column .co_body p {
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 1px 0px;
+  padding-top: 0px;
+  font-size: 14px;
+}
+.shavuot-minisite .chabad_left_column .co_body p:first-child:not(.SCHeading_2) {
+
+  padding-top: 12px;
+}
+
+.shavuot-minisite .chabad_left_column .co_body .SCHeading_1,
+
+.shavuot-minisite .SCHeading_1,
+.shavuot-minisite .co_body h1,
+.shavuot-minisite .form-html h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+  font-size: 24px;
+  color: #867459;
+  text-transform: uppercase;
+  margin-top: 11px;
+}
+.shavuot-minisite .co_body h1 {
+  margin-top: 16px;
+}
+
+.shavuot-minisite .chabad_left_column .co_body .SCHeading_2,
+.shavuot-minisite .SCHeading_2 {
+    font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 5px;
+  margin-top: 20px;
+  color: #867459;
+}
+.shavuot-minisite .chabad_left_column .co_body .SCHeading_3,
+.shavuot-minisite .SCHeading_3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 5px;
+  margin-top: 20px;
+}

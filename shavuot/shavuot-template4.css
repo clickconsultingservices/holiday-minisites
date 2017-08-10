@@ -1,0 +1,88 @@
+.shavuot-minisite #navigation li {
+  visibility: hidden;
+}
+
+.shavuot-minisite #navigation li a {
+  margin-right: -6px !important;
+  margin-left: 0px !important;
+  padding-right: 11px !important;
+  padding-left: 11px !important;
+  padding-top: 11px !important;
+  padding-bottom: 6px !important;
+
+  height: 100%;
+  box-sizing: border-box;
+
+  display: inline-block;
+
+  visibility: visible;  border-right: 1px solid rgba(255,255,255,0.5);
+}
+
+.shavuot-minisite #navigation li {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.shavuot-minisite #navigation li a {
+
+  transition: all 400ms;
+}
+
+.shavuot-minisite #navigation li a.selected {
+  color: #DB9AAE !important;
+}
+
+.shavuot-minisite #navigation li a:hover {
+  background: rgba(255,255,255, 0.8);
+  color: #611426 !important;
+}.shavuot-minisite #navigation li:last-child a {
+  border-right: 0px solid #C86281;
+}
+
+.shavuot-minisite #navigation li:first-child {
+  display: none;
+}
+
+.shavuot-minisite #navigation.chabad_navigator_bar {
+  padding: 3px !important;
+  padding-bottom: 0px !important;
+  height: 40px;
+}
+
+.shavuot-minisite .page_tool_table {
+  display: none;
+}
+
+.shavuot-minisite #PageTitle {
+  color: #4E0A17;
+  padding-top: 10px;
+}
+
+.shavuot-minisite #sub_menu {
+  top: 35px;
+  padding-top: 0;
+}
+.shavuot-minisite #sub_menu ul {
+  padding-top: 0;
+}
+
+.shavuot-minisite .active #sub_menu {
+  display: block;
+}
+
+.shavuot-minisite #sub_menu li {
+  visibility: visible;
+}
+
+.shavuot-minisite #navigation #sub_menu li:first-child {
+  display: block;
+}
+
+.shavuot-minisite #navigation #sub_menu li a {
+  background: #4E0A17;
+  text-transform: uppercase;
+}
+
+.shavuot-minisite #navigation #sub_menu li a:hover {
+  color: #C86281 !important;
+}
+
