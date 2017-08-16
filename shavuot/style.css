@@ -620,7 +620,7 @@ padding: 0;
 .shavuot-minisite .chabad_header:before {
   content: " ";
   display: block;
-  background: url(https://shavuot-48408.bitballoon.com/back-overlay.png) no-repeat;
+  background: url(https://clickconsultingservices.github.io/holiday-minisites/shavuot/back-overlay.png) no-repeat;
   position: absolute;
   left: -100px;
   top: 265px;
@@ -865,10 +865,10 @@ box-shadow: 0px 0px 46px 0px rgba(0,0,0,0.75);
       right: 0;
 
   }
-	  .shavuot-minisite .chabad_header:before   {
-	  top: 200px;
-	  left: -400px;
-	}
+    .shavuot-minisite .chabad_header:before   {
+    top: 200px;
+    left: -400px;
+  }
 
 
 .shavuot-minisite {

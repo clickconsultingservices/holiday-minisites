@@ -661,7 +661,7 @@ padding: 0;
 .sukkos-minisite .chabad_header:before {
   content: " ";
   display: block;
-  background: url(https://sukkos-38770.bitballoon.com/back-overlay.png) no-repeat;
+  background: url(https://clickconsultingservices.github.io/holiday-minisites/sukkos/back-overlay.png) no-repeat;
   position: absolute;
   background-size: 100%;
   z-index: -1;
@@ -674,7 +674,7 @@ padding: 0;
 
 /*@media (min-width: 2200px) {*/
   .sukkos-minisite .chabad_header:before {
-  background-image: url(https://sukkos-38770.bitballoon.com/back-overlay.png);
+  background-image: url(https://clickconsultingservices.github.io/holiday-minisites/sukkos/back-overlay.png);
   width: 380px;
   height: 550px;
   left: -50px;
