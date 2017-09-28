@@ -1134,6 +1134,13 @@ box-shadow: 0px 0px 46px 0px rgba(0,0,0,0.75);
   }
 }
 
+.sukkos-minisite .content img {
+  max-width: 100%;
+  height: auto;
+}
+.sukkos-minisite #co_index_container .imagetable {
+  margin-left: 0;
+}
 .sukkos-minisite .form-image {
   max-width: 100%;
   height: auto;
