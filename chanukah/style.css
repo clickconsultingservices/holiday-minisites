@@ -80,7 +80,7 @@
 }.chanukah-minisite .chabad_navigator_bar {
     background-size: 100%;
     width: 975px;
-    height: 36px;
+    /*height: 36px;*/
 }
 
 .chanukah-minisite .mobile .chabad_navigator_bar {
@@ -963,9 +963,11 @@ box-shadow: 0px 0px 46px 0px rgba(0,0,0,0.75);
 }
 
 .chanukah-minisite .chabad_left_column .co_body {
-  padding: 10px;
+  /*padding: 10px;*/
 }
-
+.chanukah-minisite .chabad_left_column .co_body #co_body_container #cco_body {
+  padding: 15px;
+}
 .chanukah-minisite .chabad_left_column .co_body p {  margin: 0;
   margin-bottom: 10px;
   padding: 1px 0px;

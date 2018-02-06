@@ -37,7 +37,7 @@
   letter-spacing: 1.1px;
   text-decoration: none;
   text-transform: uppercase;
-  
+
 }
 
 .sukkos-minisite .schedule-header {
@@ -50,7 +50,7 @@
   font-size: 14px;
   color: #24510E;
   font-style: italic;
-  
+
 }
 .sukkps-minisite table {
   font-size: 13px;
@@ -110,10 +110,10 @@ display: block;
 }.sukkos-minisite .chabad_navigator_bar {
     background-size: 100%;
     width: 975px;
-    height: 36px;
+    /*height: 36px;*/
 }
 
-.sukkos-minisite .mobile .chabad_navigator_bar { 
+.sukkos-minisite .mobile .chabad_navigator_bar {
     width: 100%;
     height: auto;
 }
@@ -291,7 +291,7 @@ display: block;
 .sukkos-minisite .chabad_text_box,
 .sukkos-minisite .content_box_custom {
     float: none;
-    width: initial; 
+    width: initial;
     padding-left: 0px;
 }
 
@@ -401,13 +401,13 @@ display: block;
         overflow: hidden;
         transition: height 0.4s linear;
     }
-    
+
     .sukkos-minisite div#chabad_head .chabad_navigator_bar .mobile_menu ul.navi li,
     .sukkos-minisite div#chabad_head .chabad_navigator_bar .mobile_menu ul.navi li a {
         float: none;
         display:block
     }
-    .sukkos-minisite div#chabad_head .chabad_navigator_bar .mobile_menu ul.navi li a 
+    .sukkos-minisite div#chabad_head .chabad_navigator_bar .mobile_menu ul.navi li a
     {
         padding:5px 15px;
         text-align: left;
@@ -429,12 +429,12 @@ display: block;
         padding: 10px 0;
         font-weight:bold;
         font-size:9px!important;
-        color: inherit;     
+        color: inherit;
 }
-.sukkos-minisite .mobile_menu_nav_button:after {    
-    content: "\25bc";        
+.sukkos-minisite .mobile_menu_nav_button:after {
+    content: "\25bc";
     left: 10px;
-    position: relative;    
+    position: relative;
     color: inherit;
 }
 .sukkos-minisite .mobile_menu.open .mobile_menu_nav_button:after{
@@ -627,12 +627,12 @@ text-transform: none;
 }*/
 
 .sukkos-minisite #formContainer {
-    margin: 10px;   
+    margin: 10px;
   margin-top: -10px;;
 }
 
 .sukkos-minisite #co_content_container .center.small {
-    padding-bottom: 20px;   
+    padding-bottom: 20px;
 }
 
 .sukkos-minisite .form-input-wide .form-html {
@@ -688,7 +688,7 @@ padding: 0;
 }
 
 .sukkos-minisite div#chabad_head img {
-   max-width: 118%; 
+   max-width: 118%;
   margin-left: -10%;
 }
 
@@ -763,7 +763,7 @@ padding: 0;
   height: auto;
 }
 
-@media only screen and (max-width: 1000px) { 
+@media only screen and (max-width: 1000px) {
 
 
   .sukkos-minisite #navigation li.parent a.parent {
@@ -808,7 +808,7 @@ padding: 0;
 .sukkos-minisite #co_menu_container_wrapper{
 display:none!important;
 }
- 
+
 .sukkos-minisite div#co_menu_container.co_menu_container.clearfix{
 display:none !important;
 }
@@ -821,10 +821,10 @@ background-size: cover !important;
 
 
   .sukkos-minisite #navigation .chabad_menu_content li {
-    
+
     width: 100%;
     top: 0 !important;
-    padding-bottom: 0 !important;  
+    padding-bottom: 0 !important;
 }
 
   .sukkos-minisite #navigation .chabad_menu_content li a {
@@ -991,9 +991,11 @@ box-shadow: 0px 0px 46px 0px rgba(0,0,0,0.75);
 }
 
 .sukkos-minisite .chabad_left_column .co_body {
-  padding: 10px;
+  /*padding: 10px;*/
 }
-
+.sukkos-minisite .chabad_left_column .co_body #co_body_container #cco_body {
+  padding: 15px;
+}
 .sukkos-minisite .chabad_left_column .co_body p {  margin: 0;
   margin-bottom: 10px;
   padding: 1px 0px;
@@ -1107,7 +1109,7 @@ box-shadow: 0px 0px 46px 0px rgba(0,0,0,0.75);
     max-width: 100%;
     box-sizing: border-box;
   }
-  
+
   .sukkos-minisite .form-buttons-wrapper {
     margin-left: 0 !important;
   }
