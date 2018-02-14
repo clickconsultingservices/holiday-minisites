@@ -30,7 +30,7 @@
 .purim-minisite .chabad_header h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 18px !important;
-  color: #0B3C4C; !important;
+  color: #0B3C4C;
   margin-top: -25px;
   margin-left: 0px;
   letter-spacing: 1.1px;
@@ -95,7 +95,6 @@
 
 .purim-minisite div#chabad_main_content .chabad_navigator_bar .chabad_menu_content {
     height: 100%;
-    float-left: 0px; !important;
 }
 
 .purim-minisite .chabad_navigator_bar .chabad_menu_content {
@@ -1090,4 +1089,19 @@ box-shadow: 0px 0px 46px 0px rgba(0,0,0,0.75);
 .purim-minisite .form-image {
   max-width: 100%;
   height: auto;
+}
+
+
+
+.purim-minisite #co_body_container .content {
+  overflow: visible;
+}
+
+.purim-minisite #co_body_container .expand-full {
+  margin-top: -15px;
+  margin-left: -15px;
+  margin-right: -15px;
+  margin-bottom: -16px;
+  padding-top: 0;
+  padding: 0;
 }
