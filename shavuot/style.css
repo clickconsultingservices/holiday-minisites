@@ -967,6 +967,30 @@ box-shadow: 0px 0px 46px 0px rgba(0,0,0,0.75);
   text-transform: uppercase;
   margin-top: 11px;
 }
+
+.shavuot-minisite .form-header-group {
+	padding-left: 0;
+	margin-left: 0;
+}
+
+
+.shavuot-minisite H2.form-header {
+	font-size: 20px;
+	color: #573E20;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.shavuot-minisite H3.form-header {
+  font-size: 16px;
+  color: #968365;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.shavuot-minisite #formContainer .form-line {
+	padding-left: 0;
+}
+
 .shavuot-minisite .co_body h1 {
   margin-top: 16px;
 }
