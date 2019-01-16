@@ -1,5 +1,25 @@
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
-@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,700');
+
+.highholidays-minisite .content {
+	font-family: 'Open Sans', sans-serif;
+}
+.highholidays-minisite #chabad_body_page .form-all,
+.highholidays-minisite #chabad_body_page .content li,
+.highholidays-minisite #chabad_body_page .content p {
+	font-family: inherit;
+}
+.highholidays-minisite #chabad_body_page .form-label-auto label,
+.highholidays-minisite #chabad_body_page .form-label-left label,
+.highholidays-minisite #chabad_body_page .form-label-right label,
+.highholidays-minisite #chabad_body_page .form-label-top label {
+	color: #333;
+}
+
+.highholidays-minisite .article-header,
+.highholidays-minisite .hero_wrapper  {
+  display: none;
+}
 
 .highholidays-minisite .chabad_header h1 {
   font-family: 'Montserrat', sans-serif;

@@ -1,5 +1,25 @@
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
-@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,700');
+
+.chanukah-minisite .content {
+	font-family: 'Open Sans', sans-serif;
+}
+.chanukah-minisite #chabad_body_page .form-all,
+.chanukah-minisite #chabad_body_page .content li,
+.chanukah-minisite #chabad_body_page .content p {
+	font-family: inherit;
+}
+.chanukah-minisite #chabad_body_page .form-label-auto label,
+.chanukah-minisite #chabad_body_page .form-label-left label,
+.chanukah-minisite #chabad_body_page .form-label-right label,
+.chanukah-minisite #chabad_body_page .form-label-top label {
+	color: #333;
+}
+
+.chanukah-minisite .article-header,
+.chanukah-minisite .hero_wrapper  {
+  display: none;
+}
 
 .chanukah-minisite .chabad_header h1 {
   font-family: 'Montserrat', sans-serif;

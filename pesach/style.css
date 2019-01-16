@@ -1,5 +1,25 @@
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
-@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,700');
+
+.pesach-minisite .content {
+	font-family: 'Open Sans', sans-serif;
+}
+.pesach-minisite #chabad_body_page .form-all,
+.pesach-minisite #chabad_body_page .content li,
+.pesach-minisite #chabad_body_page .content p {
+	font-family: inherit;
+}
+.pesach-minisite #chabad_body_page .form-label-auto label,
+.pesach-minisite #chabad_body_page .form-label-left label,
+.pesach-minisite #chabad_body_page .form-label-right label,
+.pesach-minisite #chabad_body_page .form-label-top label {
+	color: #333;
+}
+
+.pesach-minisite .article-header,
+.pesach-minisite .hero_wrapper  {
+  display: none;
+}
 
 .pesach-minisite .chabad_header h1 {
   font-family: 'Montserrat', sans-serif;

@@ -1,5 +1,25 @@
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
-@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,700');
+
+.purim-minisite .content {
+	font-family: 'Open Sans', sans-serif;
+}
+.purim-minisite #chabad_body_page .form-all,
+.purim-minisite #chabad_body_page .content li,
+.purim-minisite #chabad_body_page .content p {
+	font-family: inherit;
+}
+.purim-minisite #chabad_body_page .form-label-auto label,
+.purim-minisite #chabad_body_page .form-label-left label,
+.purim-minisite #chabad_body_page .form-label-right label,
+.purim-minisite #chabad_body_page .form-label-top label {
+	color: #333;
+}
+
+.purim-minisite .article-header,
+.purim-minisite .hero_wrapper  {
+  display: none;
+}
 
 .purim-minisite #co_index_container .co_body {
   display: none;

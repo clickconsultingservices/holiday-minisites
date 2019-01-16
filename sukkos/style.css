@@ -1,5 +1,26 @@
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
-@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,700');
+
+.sukkos-minisite .content {
+	font-family: 'Open Sans', sans-serif;
+}
+.sukkos-minisite #chabad_body_page .form-all,
+.sukkos-minisite #chabad_body_page .content li,
+.sukkos-minisite #chabad_body_page .content p {
+	font-family: inherit;
+}
+.sukkos-minisite #chabad_body_page .form-label-auto label,
+.sukkos-minisite #chabad_body_page .form-label-left label,
+.sukkos-minisite #chabad_body_page .form-label-right label,
+.sukkos-minisite #chabad_body_page .form-label-top label {
+	color: #333;
+}
+
+
+.sukkos-minisite .article-header,
+.sukkos-minisite .hero_wrapper  {
+  display: none;
+}
 
 .sukkos-minisite #co_index_container .co_body {
   display: none;
