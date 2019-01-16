@@ -975,11 +975,11 @@ box-shadow: 0px 0px 46px 0px rgba(0,0,0,0.75);
   padding-top: 12px;
 }
 
-.shavuot-minisite .chabad_left_column .co_body .SCHeading_1,
+.shavuot-minisite #chabad_body_page .chabad_left_column .co_body .SCHeading_1,
 
-.shavuot-minisite .SCHeading_1,
-.shavuot-minisite .co_body h1,
-.shavuot-minisite .form-html h1 {
+.shavuot-minisite #chabad_body_page .SCHeading_1,
+.shavuot-minisite #chabad_body_page .co_body h1,
+.shavuot-minisite #chabad_body_page .form-html h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
   font-size: 24px;
@@ -994,14 +994,14 @@ box-shadow: 0px 0px 46px 0px rgba(0,0,0,0.75);
 }
 
 
-.shavuot-minisite H2.form-header {
+.shavuot-minisite #chabad_body_page H2.form-header {
 	font-size: 20px;
 	color: #573E20;
 	font-weight: bold;
 	font-family: 'Montserrat', sans-serif;
 }
 
-.shavuot-minisite H3.form-header {
+.shavuot-minisite #chabad_body_page H3.form-header {
   font-size: 16px;
   color: #968365;
 	font-family: 'Montserrat', sans-serif;
@@ -1015,8 +1015,8 @@ box-shadow: 0px 0px 46px 0px rgba(0,0,0,0.75);
   margin-top: 16px;
 }
 
-.shavuot-minisite .chabad_left_column .co_body .SCHeading_2,
-.shavuot-minisite .SCHeading_2 {
+.shavuot-minisite #chabad_body_page .chabad_left_column .co_body .SCHeading_2,
+.shavuot-minisite #chabad_body_page .SCHeading_2 {
     font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   font-size: 16px;
@@ -1024,8 +1024,8 @@ box-shadow: 0px 0px 46px 0px rgba(0,0,0,0.75);
   margin-top: 20px;
   color: #867459;
 }
-.shavuot-minisite .chabad_left_column .co_body .SCHeading_3,
-.shavuot-minisite .SCHeading_3 {
+.shavuot-minisite #chabad_body_page .chabad_left_column .co_body .SCHeading_3,
+.shavuot-minisite #chabad_body_page .SCHeading_3 {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   font-size: 14px;

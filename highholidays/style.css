@@ -999,11 +999,11 @@ box-shadow: 0px 0px 46px 0px rgba(0,0,0,0.75);
   padding-top: 14px;
 }
 
-.highholidays-minisite .SCHeading_1,
-.highholidays-minisite .chabad_left_column .co_body .SCHeading_1,
-.highholidays-minisite .co_body h1,
-.highholidays-minisite .form-html h1,
-.highholidays-minisite  h1.form-header {
+.highholidays-minisite #chabad_body_page .SCHeading_1,
+.highholidays-minisite #chabad_body_page .chabad_left_column .co_body .SCHeading_1,
+.highholidays-minisite #chabad_body_page .co_body h1,
+.highholidays-minisite #chabad_body_page .form-html h1,
+.highholidays-minisite #chabad_body_page  h1.form-header {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
   font-size: 24px;
@@ -1015,8 +1015,8 @@ box-shadow: 0px 0px 46px 0px rgba(0,0,0,0.75);
   margin-top: 16px;
 }
 
-.highholidays-minisite .chabad_left_column .co_body .SCHeading_2,
-.highholidays-minisite .SCHeading_2 {
+.highholidays-minisite #chabad_body_page .chabad_left_column .co_body .SCHeading_2,
+.highholidays-minisite #chabad_body_page .SCHeading_2 {
     font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   font-size: 16px;

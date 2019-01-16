@@ -999,10 +999,10 @@ box-shadow: 0px 0px 46px 0px rgba(0,0,0,0.75);
   padding-top: 12px;
 }
 
-.chanukah-minisite .chabad_left_column .co_body .SCHeading_1,
-.chanukah-minisite .SCHeading_1,
-.chanukah-minisite .co_body h1,
-.chanukah-minisite .form-html h1 {
+.chanukah-minisite #chabad_body_page .chabad_left_column .co_body .SCHeading_1,
+.chanukah-minisite #chabad_body_page .SCHeading_1,
+.chanukah-minisite #chabad_body_page .co_body h1,
+.chanukah-minisite  #chabad_body_page .form-html h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
   font-size: 24px;
@@ -1014,8 +1014,8 @@ box-shadow: 0px 0px 46px 0px rgba(0,0,0,0.75);
   margin-top: 16px;
 }
 
-.chanukah-minisite .chabad_left_column .co_body .SCHeading_2,
-.chanukah-minisite .SCHeading_2 {
+.chanukah-minisite #chabad_body_page .chabad_left_column .co_body .SCHeading_2,
+.chanukah-minisite #chabad_body_page .SCHeading_2 {
     font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   font-size: 16px;
@@ -1023,8 +1023,8 @@ box-shadow: 0px 0px 46px 0px rgba(0,0,0,0.75);
   margin-top: 20px;
   color: #290E3F;
 }
-.chanukah-minisite .chabad_left_column .co_body .SCHeading_3,
-.chanukah-minisite .SCHeading_3 {
+.chanukah-minisite #chabad_body_page .chabad_left_column .co_body .SCHeading_3,
+.chanukah-minisite #chabad_body_page .SCHeading_3 {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   font-size: 14px;
