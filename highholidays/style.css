@@ -1173,3 +1173,14 @@ box-shadow: 0px 0px 46px 0px rgba(0,0,0,0.75);
   padding-top: 0;
   padding: 0;
 }
+
+.highholidays-minisite #chabad_body_page H2.form-header {
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+}
+.highholidays-minisite #chabad_body_page H3.form-header {
+	color: #7E530E;
+	font-size: 1em;
+}
