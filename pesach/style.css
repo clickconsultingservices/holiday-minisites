@@ -855,7 +855,7 @@ border-bottom-left-radius: 70px;
 
   .pesach-minisite div#chabad_main_content .chabad_navigator_bar .chabad_menu_content .navi  {
     height: 93.9vh !important;
-    width: 190px;
+    width: 330px;
     max-width: 70vw;
     position: fixed !important;
   float: right;
@@ -935,6 +935,7 @@ box-shadow: 0px 0px 46px 0px rgba(0,0,0,0.75);
 
 .mobile .pesach-minisite #navigation .chabad_menu_content li.parent a {
     margin-bottom: 10px;
+    line-height: 130%;
 }
 }
 @media (max-width:500px) {
