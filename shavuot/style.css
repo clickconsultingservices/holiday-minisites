@@ -736,6 +736,7 @@ padding: 0;
 
   .shavuot-minisite #navigation li.parent a.parent {
     border: none;
+    line-height: 120%;
   }
 
   .shavuot-minisite .sub_menu   .item.last {
@@ -842,9 +843,9 @@ background-size: cover !important;
   float: right;
   text-align: right;
   z-index: 1000;
-  width: 40px;
-  height: 40px;
-  padding: 10px;
+  width: 50px;
+  height: 50px;
+  padding: 7px;
 
   -webkit-border-bottom-left-radius: 70px;
 -moz-border-radius-bottomleft: 70px;
@@ -855,7 +856,7 @@ border-bottom-left-radius: 70px;
 
 
   .shavuot-minisite div#chabad_main_content .chabad_navigator_bar .chabad_menu_content .navi  {
-    height: 93.9vh !important;
+    height: 100vh !important;
     width: 190px;
     max-width: 70vw;
     position: fixed !important;
